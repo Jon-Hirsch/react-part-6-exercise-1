@@ -1,0 +1,29 @@
+{
+  "name": "react-exercise",
+  "version": "0.0.1",
+  "description": "a react exercise",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register _test/utils/compiler _test/*_spec.js",
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.11.1",
+    "chai": "^3.5.0",
+    "css-loader": "^0.23.1",
+    "enzyme": "^2.4.1",
+    "jsdom": "^9.4.2",
+    "mocha": "^3.0.2",
+    "react-addons-test-utils": "^15.3.1",
+    "style-loader": "^0.13.1"
+  },
+  "dependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
+  }
+}

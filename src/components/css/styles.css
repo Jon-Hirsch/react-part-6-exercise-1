@@ -1,0 +1,35 @@
+.square {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: solid 1px #000;
+  margin: 2px;
+}
+.diamond {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: solid 1px #000;
+  transform: rotate(45deg);
+  margin: 25px;
+}
+.circle {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border: solid 1px #000;
+  border-radius: 75px;
+  margin: 2px;
+}
+
+.red {
+  background-color: #f00;
+}
+
+.green {
+    background-color: #0f0;
+}
+
+.blue {
+    background-color: #00f;
+}
